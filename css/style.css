@@ -1,0 +1,55 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carousel-item img {
+    height: 75vh;
+    object-fit: cover;
+}
+
+.carousel-control-prev {
+    left: 10%;
+}
+
+.carousel-control-next {
+    right: 10%;
+}
+
+.marketing {
+    text-align: center;
+}
+
+.marketing h2 {
+    font-size: 3rem;
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+}
+
+.float-right {
+    float: right;
+}
+
+.row {
+    margin: 0;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        width: 100%;
+    }
+}
